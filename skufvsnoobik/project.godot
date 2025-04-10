@@ -1,0 +1,28 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="SkufVSNoobik"
+run/main_scene="res://Scenes/Loading/loading_screen.tscn"
+config/features=PackedStringArray("4.3", "Mobile")
+config/icon="res://icon.svg"
+
+[autoload]
+
+GlobalControl="*res://Control/global_control.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/indie-blueprint-scene-transition-8efc967b75efe3c05fca0c88572a1af82015196d/addons/ninetailsrabbit.indie_blueprint_scene_transition/plugin.cfg", "res://addons/indie-blueprint-scene-transition/addons/ninetailsrabbit.indie_blueprint_scene_transition/plugin.cfg")
+
+[rendering]
+
+renderer/rendering_method="mobile"

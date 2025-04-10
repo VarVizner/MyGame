@@ -1,0 +1,5 @@
+'white': FFFFFF
+'cyan': 41EAD4
+'yellow': FBFF12
+'pink': FF206E
+'black': 0C0F0A
