@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://dp5y8uah5a65"]
 
 [ext_resource type="Script" path="res://Scenes/Loading/loading_screen.gd" id="1_d6xq6"]
-[ext_resource type="FontFile" uid="uid://cml6625lqt7pb" path="res://Assets/Fonts/Beach Summer.otf" id="1_f12py"]
+[ext_resource type="FontFile" uid="uid://cml6625lqt7pb" path="res://Assets/Fonts/BeachSummer.otf" id="1_f12py"]
 [ext_resource type="Texture2D" uid="uid://c2aevwph8osw6" path="res://Assets/load_screen.png" id="2_cd1cu"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hiet0"]
@@ -20,7 +20,6 @@ grow_vertical = 2
 script = ExtResource("1_d6xq6")
 
 [node name="TextureRect" type="TextureRect" parent="."]
-modulate = Color(0.597176, 0.597176, 0.597176, 1)
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0

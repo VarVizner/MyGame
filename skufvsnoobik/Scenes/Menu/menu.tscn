@@ -2,19 +2,19 @@
 
 [ext_resource type="Script" path="res://Scenes/Menu/menu.gd" id="1_mknsx"]
 [ext_resource type="Texture2D" uid="uid://brs2vnfgtwr7k" path="res://Assets/menu.png" id="2_w4piy"]
-[ext_resource type="FontFile" uid="uid://cml6625lqt7pb" path="res://Assets/Fonts/Beach Summer.otf" id="3_6gwwc"]
+[ext_resource type="FontFile" uid="uid://cml6625lqt7pb" path="res://Assets/Fonts/BeachSummer.otf" id="3_1fyr1"]
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_i1ejg"]
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_d3ox5"]
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_v4pim"]
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7re6c"]
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_erlsw"]
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_iuops"]
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4081b"]
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dbmt7"]
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fdm3f"]
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dfpvm"]
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_luiuh"]
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_uk0wd"]
 
 [node name="Menu" type="Control"]
 layout_mode = 3
@@ -52,45 +52,46 @@ custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
 [node name="Play" type="Button" parent="CenterContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
-theme_override_colors/font_hover_color = Color(0.984314, 1, 0.0705882, 1)
-theme_override_colors/font_pressed_color = Color(0.254902, 0.917647, 0.831373, 1)
 theme_override_colors/font_color = Color(1, 1, 1, 0.509804)
+theme_override_colors/font_pressed_color = Color(0.254902, 0.917647, 0.831373, 1)
+theme_override_colors/font_hover_color = Color(0.984314, 1, 0.0705882, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 0.694118)
 theme_override_constants/outline_size = 7
-theme_override_fonts/font = ExtResource("3_6gwwc")
-theme_override_font_sizes/font_size = 100
-theme_override_styles/focus = SubResource("StyleBoxEmpty_i1ejg")
-theme_override_styles/hover = SubResource("StyleBoxEmpty_v4pim")
-theme_override_styles/pressed = SubResource("StyleBoxEmpty_erlsw")
-theme_override_styles/normal = SubResource("StyleBoxEmpty_4081b")
+theme_override_fonts/font = ExtResource("3_1fyr1")
+theme_override_font_sizes/font_size = 120
+theme_override_styles/normal = SubResource("StyleBoxEmpty_d3ox5")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_7re6c")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_iuops")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_dbmt7")
 text = "Play"
 
 [node name="Panel" type="Panel" parent="CenterContainer/HBoxContainer/VBoxContainer"]
 custom_minimum_size = Vector2(0, 100)
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_styles/panel = SubResource("StyleBoxEmpty_fdm3f")
+size_flags_stretch_ratio = 0.0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_dfpvm")
 
-[node name="Exit" type="Button" parent="CenterContainer/HBoxContainer/VBoxContainer"]
+[node name="Play2" type="Button" parent="CenterContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(150, 150)
 layout_mode = 2
-theme_override_colors/font_hover_color = Color(0.984314, 1, 0.0705882, 1)
-theme_override_colors/font_pressed_color = Color(0.254902, 0.917647, 0.831373, 1)
 theme_override_colors/font_color = Color(1, 1, 1, 0.509804)
+theme_override_colors/font_pressed_color = Color(0.254902, 0.917647, 0.831373, 1)
+theme_override_colors/font_hover_color = Color(0.984314, 1, 0.0705882, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 0.694118)
 theme_override_constants/outline_size = 7
-theme_override_fonts/font = ExtResource("3_6gwwc")
-theme_override_font_sizes/font_size = 100
-theme_override_styles/focus = SubResource("StyleBoxEmpty_i1ejg")
-theme_override_styles/hover = SubResource("StyleBoxEmpty_v4pim")
-theme_override_styles/pressed = SubResource("StyleBoxEmpty_erlsw")
-theme_override_styles/normal = SubResource("StyleBoxEmpty_4081b")
+theme_override_fonts/font = ExtResource("3_1fyr1")
+theme_override_font_sizes/font_size = 120
+theme_override_styles/normal = SubResource("StyleBoxEmpty_d3ox5")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_7re6c")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_iuops")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_dbmt7")
 text = "Exit"
 
 [node name="Panel" type="Panel" parent="CenterContainer/HBoxContainer"]
-custom_minimum_size = Vector2(95, 0)
+custom_minimum_size = Vector2(120, 0)
 layout_mode = 2
-theme_override_styles/panel = SubResource("StyleBoxEmpty_luiuh")
-
-[connection signal="pressed" from="CenterContainer/HBoxContainer/VBoxContainer/Play" to="." method="_on_play_pressed"]
-[connection signal="pressed" from="CenterContainer/HBoxContainer/VBoxContainer/Exit" to="." method="_on_exit_pressed"]
+size_flags_horizontal = 3
+theme_override_styles/panel = SubResource("StyleBoxEmpty_uk0wd")

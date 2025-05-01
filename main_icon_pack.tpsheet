@@ -1,0 +1,738 @@
+{
+	"textures": [
+		{
+			"image": "main_icon_pack.png",
+			"size": {
+				"w": 1920,
+				"h": 1440
+			},
+			"sprites": [
+				{
+					"filename": "alt.jpg",
+					"region": {
+						"x": 0,
+						"y": 0,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "alt2.jpg",
+					"region": {
+						"x": 240,
+						"y": 0,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "alt3.jpg",
+					"region": {
+						"x": 480,
+						"y": 0,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "alt4.jpg",
+					"region": {
+						"x": 720,
+						"y": 0,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "alt5.jpg",
+					"region": {
+						"x": 960,
+						"y": 0,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "alt6.jpg",
+					"region": {
+						"x": 1200,
+						"y": 0,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "alt7.jpg",
+					"region": {
+						"x": 1440,
+						"y": 0,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "altushka.jpg",
+					"region": {
+						"x": 1680,
+						"y": 0,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "beer.jpg",
+					"region": {
+						"x": 0,
+						"y": 240,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "cat.jpg",
+					"region": {
+						"x": 240,
+						"y": 240,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "cat_ears_girl.jpg",
+					"region": {
+						"x": 480,
+						"y": 240,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "chest.jpg",
+					"region": {
+						"x": 720,
+						"y": 240,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "chips.jpg",
+					"region": {
+						"x": 960,
+						"y": 240,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "cube_noobik.jpg",
+					"region": {
+						"x": 1200,
+						"y": 240,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "custom.jpg",
+					"region": {
+						"x": 1440,
+						"y": 240,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "custom2.jpg",
+					"region": {
+						"x": 1680,
+						"y": 240,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "custom3.jpg",
+					"region": {
+						"x": 0,
+						"y": 480,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "diamond.jpg",
+					"region": {
+						"x": 240,
+						"y": 480,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "enemy.jpg",
+					"region": {
+						"x": 480,
+						"y": 480,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "enemy2.jpg",
+					"region": {
+						"x": 720,
+						"y": 480,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "enemy3.jpg",
+					"region": {
+						"x": 960,
+						"y": 480,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "enemy4.jpg",
+					"region": {
+						"x": 1200,
+						"y": 480,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "enemy5.jpg",
+					"region": {
+						"x": 1440,
+						"y": 480,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "enemy6.jpg",
+					"region": {
+						"x": 1680,
+						"y": 480,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "failure.jpg",
+					"region": {
+						"x": 0,
+						"y": 720,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "game_console.jpg",
+					"region": {
+						"x": 240,
+						"y": 720,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "great_sword.jpg",
+					"region": {
+						"x": 480,
+						"y": 720,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "humburger.jpg",
+					"region": {
+						"x": 720,
+						"y": 720,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "keys.jpg",
+					"region": {
+						"x": 960,
+						"y": 720,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "pants.jpg",
+					"region": {
+						"x": 1200,
+						"y": 720,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "pig.jpg",
+					"region": {
+						"x": 1440,
+						"y": 720,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "pizza.jpg",
+					"region": {
+						"x": 1680,
+						"y": 720,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "potion.jpg",
+					"region": {
+						"x": 0,
+						"y": 960,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "serial.jpg",
+					"region": {
+						"x": 240,
+						"y": 960,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "skuf.jpg",
+					"region": {
+						"x": 480,
+						"y": 960,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "skuf2.jpg",
+					"region": {
+						"x": 720,
+						"y": 960,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "skuf3.jpg",
+					"region": {
+						"x": 960,
+						"y": 960,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "skuf4.jpg",
+					"region": {
+						"x": 1200,
+						"y": 960,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "skuf6.jpg",
+					"region": {
+						"x": 1440,
+						"y": 960,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "skuf7.jpg",
+					"region": {
+						"x": 1680,
+						"y": 960,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "soda.jpg",
+					"region": {
+						"x": 0,
+						"y": 1200,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "steve.jpg",
+					"region": {
+						"x": 240,
+						"y": 1200,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "steve_skuf.jpg",
+					"region": {
+						"x": 480,
+						"y": 1200,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "tank.jpg",
+					"region": {
+						"x": 720,
+						"y": 1200,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "torch.jpg",
+					"region": {
+						"x": 960,
+						"y": 1200,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "wifebeater.jpg",
+					"region": {
+						"x": 1200,
+						"y": 1200,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "wooden_sword.jpg",
+					"region": {
+						"x": 1440,
+						"y": 1200,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "wooden_sword2.jpg",
+					"region": {
+						"x": 1680,
+						"y": 1200,
+						"w": 240,
+						"h": 240
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:7f94d967ca01e024cdd8a4e488d8a140:b5ea32f8c2311629cad5ec441113043c:ecccb86326f1bac426d7bbcd11085b6f$"
+	}
+}

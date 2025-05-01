@@ -12,16 +12,23 @@ config_version=5
 
 config/name="SkufVSNoobik"
 run/main_scene="res://Scenes/Loading/loading_screen.tscn"
-config/features=PackedStringArray("4.3", "Mobile")
+config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
 
 [autoload]
 
 GlobalControl="*res://Control/global_control.gd"
 
+[display]
+
+window/size/viewport_width=414
+window/size/viewport_height=736
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/indie-blueprint-scene-transition/addons/ninetailsrabbit.indie_blueprint_scene_transition/plugin.cfg")
+enabled=PackedStringArray()
 
 [rendering]
 
